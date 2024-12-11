@@ -1,8 +1,0 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #121212; /* Dark ambiance background */
-  color: #e0e0e0;           /* Light text color */
-  font-family: 'Arial', sans-serif;
-  overflow-x: hidden;       /* Prevent horizontal scroll */
-}
