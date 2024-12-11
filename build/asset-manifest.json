@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Zen8/static/css/main.f5a56f19.css",
+    "main.js": "/Zen8/static/js/main.925482ce.js",
+    "index.html": "/Zen8/index.html",
+    "main.f5a56f19.css.map": "/Zen8/static/css/main.f5a56f19.css.map",
+    "main.925482ce.js.map": "/Zen8/static/js/main.925482ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5a56f19.css",
+    "static/js/main.925482ce.js"
+  ]
+}
