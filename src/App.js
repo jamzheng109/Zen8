@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "./components/Header";
 import './styles/App.css';
+import Steven from './components/steven'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
         <h2 style={styles.welcomeTitle}>Welcome to Zenith8</h2>
         <p style={styles.welcomeText}>Come and meet the team consisting of a bunch of hoohas.</p>
       </div>
+
+      <Steven />
+
     </div>
   );
 }
@@ -30,17 +34,16 @@ const styles = {
     margin: '0 auto',     // Center the content horizontally
   },
   welcomeTitle: {
-    fontSize: '60px',
+    fontSize: '100px',
     fontWeight: 'bold',
-    color: '#fff',                  // White text color
-    textFillColor: 'transparent',    // Make the text color transparent to show the gradient
+    color: '#fff',
+    textFillColor: 'transparent',
     marginBottom: '20px',
     marginTop: '10px',
-    padding: '5px',                 // Add padding for the title to make it stand out
+    padding: '5px',
     textShadow: '0 0 5px #ff4500, 0 0 10px #ff6347, 0 0 15px #ff0, 0 0 20px #ff4500', // Glow effect for fire
     animation: 'flicker 1.5s infinite alternate', // Apply flickering animation
   },
-
   welcomeText: {
     fontSize: '20px',       // Smaller font size for the text
     color: '#b0b0b0',       // Slightly lighter text for the description
