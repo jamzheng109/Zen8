@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/steven.css';
 
 const Steven = () => {
+  useEffect(() => {
+    const stevenContainer = document.querySelector('.steven-container');
+    // Add the slide-up class after the component has mounted
+    stevenContainer.classList.add('slide-up');
+  }, []);
+
   return (
     <div className="steven-container">
       <div className="steven-box">
