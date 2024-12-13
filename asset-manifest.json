@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Zen8/static/css/main.6718f787.css",
-    "main.js": "/Zen8/static/js/main.714ecd6f.js",
+    "main.js": "/Zen8/static/js/main.fc424332.js",
     "index.html": "/Zen8/index.html",
     "main.6718f787.css.map": "/Zen8/static/css/main.6718f787.css.map",
-    "main.714ecd6f.js.map": "/Zen8/static/js/main.714ecd6f.js.map"
+    "main.fc424332.js.map": "/Zen8/static/js/main.fc424332.js.map"
   },
   "entrypoints": [
     "static/css/main.6718f787.css",
-    "static/js/main.714ecd6f.js"
+    "static/js/main.fc424332.js"
   ]
 }
