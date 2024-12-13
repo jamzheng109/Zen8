@@ -1,12 +1,12 @@
 .steven-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Move the container higher */
-  height: 100vh; /* Reduce height to allow some space above */
+  align-items: flex-start;
+  height: 100vh;
   padding-top: 30px;
   opacity: 0;
-  transform: translateY(100px); /* Start from below */
-  transition: opacity 2s ease-out, transform 2s ease-out; /* Apply transition */
+  transform: translateY(100px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
 }
 
 .steven-container.slide-up {
@@ -17,15 +17,15 @@
 .steven-box {
   display: flex;
   align-items: center;
-  background-color: #1e1e2f; /* Darker shade for a sleek appearance */
-  border-radius: 20px; /* More rounded corners */
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3); /* Stronger shadow for depth */
-  padding: 40px; /* Larger padding for spacious feel */
-  max-width: 1000px; /* Wider container */
+  background-color: #1e1e2f;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  max-width: 1000px;
   width: 100%;
-  gap: 30px; /* Increased gap between image and text */
-  margin: 0 auto; /* Center horizontally */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  gap: 30px;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .steven-box:hover {

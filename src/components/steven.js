@@ -4,7 +4,7 @@ import '../styles/steven.css';
 const Steven = () => {
   useEffect(() => {
     const stevenContainer = document.querySelector('.steven-container');
-    // Add the slide-up class after the component has mounted
+    console.log('useEffect triggered on page load');
     stevenContainer.classList.add('slide-up');
   }, []);
 
