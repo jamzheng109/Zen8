@@ -4,11 +4,14 @@
   align-items: flex-start; /* Move the container higher */
   height: 100vh; /* Reduce height to allow some space above */
   padding-top: 30px;
+  opacity: 0;
+  transform: translateY(100px); /* Start from below */
+  transition: opacity 2s ease-out, transform 2s ease-out; /* Apply transition */
 }
 
 .steven-container.slide-up {
-  opacity: 1; /* Fully visible */
-  transform: translateY(0); /* Slide to normal position */
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .steven-box {
