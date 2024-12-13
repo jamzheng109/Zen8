@@ -1,9 +1,21 @@
+@keyframes slideUp {
+  from {
+    transform: translateY(100px); /* Start from below */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateY(0); /* Move to normal position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
 .steven-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
   padding-top: 30px;
+  margin-bottom: -550px;
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 2s ease-out, transform 2s ease-out;

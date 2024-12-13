@@ -1,0 +1,75 @@
+@keyframes slideUp {
+  from {
+    transform: translateY(100px); /* Start from below */
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    transform: translateY(0); /* Move to normal position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.phil-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 30px;
+  margin-top: -550px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.phil-container.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.phil-box {
+  display: flex;
+  align-items: center;
+  background-color: #1e1e2f;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  max-width: 1000px;
+  width: 100%;
+  gap: 30px;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.phil-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.phil-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.phil-text {
+  color: #f5f5f5;
+  margin-left: 20px;
+}
+
+.phil-text h2 {
+  font-size: 32px; /* Slightly larger to create a clearer distinction from body text */
+  font-weight: 600; /* Semi-bold for a less heavy look, but still bold enough */
+  margin-bottom: 15px; /* Slightly more space to separate from the content below */
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.phil-text p {
+  font-size: 20px; /* Slightly larger font size for better readability */
+  line-height: 1.6; /* Adjusted line height for a balanced look */
+  color: #666; /* Softer grey color to make the text less harsh on the eyes */
+  margin-bottom: 20px; /* Adds space below paragraphs to separate them from others */
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
